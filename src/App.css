@@ -1,0 +1,32 @@
+/* src/App.css */
+
+/* ESTILOS DE BASE E SCROLL */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  overflow-y: scroll; /* ATIVA O SCROLL PRINCIPAL */
+}
+
+/* Melhoria de Scroll: Barra maior para uso no celular */
+body::-webkit-scrollbar { width: 18px; }
+body::-webkit-scrollbar-thumb {
+  background-color: #333; 
+  border-radius: 9px; 
+  border: 4px solid #f0f0f0; 
+}
+body::-webkit-scrollbar-track { background: #ddd; }
+
+/* TÍTULO */
+h2 {
+  background: #ffffff;
+  color: #333;  
+  border-bottom: 3px solid #007bff; 
+  margin: 0;
+  padding: 18px 10px; 
+  font-size: 1.6em;
+  font-weight: 700;
+}
