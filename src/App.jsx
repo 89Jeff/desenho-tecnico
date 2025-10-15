@@ -26,7 +26,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Desenho Técnico - Croqui Fácil (React)</h1>
+      <h1>Desenho do Checklist</h1>
       <Toolbar 
         mode={mode} 
         setMode={setMode} // Passa o setMode nativo do useState
